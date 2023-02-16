@@ -1,0 +1,18 @@
+package corejava;
+
+import java.text.DecimalFormat;
+
+import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
+
+public class shweta {
+
+	public static void main(String[] args) {
+		System.setProperty("webdriver.chrome.driver", "C:\\Users\\SHWETA\\Downloads\\chromedriver_win32 (1)\\chromedriver.exe");
+		WebDriver  driver = new ChromeDriver();
+		driver.get("https://www.ilovepdf.com/jpg_to_pdf");
+		driver.manage().window().maximize();
+		
+	}
+
+}
